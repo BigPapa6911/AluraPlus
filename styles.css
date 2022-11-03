@@ -1,0 +1,125 @@
+:root{
+    --brancoPrincipal: #FFFFFF;
+    --cinzaSecundario: #C0C0C0;
+    --botaoAzul: #167BF7;
+    --background: #00030C;
+    --fontePrincipal:'Inter';
+}
+body{
+    background-color: var(--background);
+    color: var(--brancoPrincipal);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 16px;
+    font-weight: 400;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 28px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.comboMais{
+    background-color: var(--botaoAzul);
+    border-radius: 15px;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.aluraMais{
+    border: solid var(--brancoPrincipal) 1px;
+    border-radius: 15px;
+    padding: 1em;
+    width: 100%;
+}
+.aviso{
+    font-size: 12px;
+    color: var(--cinzaSecundario);
+    font-weight: 400;
+}
+.containerImagem{
+    margin: 1em 0 2em 0; 
+}
+.caixa{
+    margin: 0 6em; 
+}
+.imagemSecundario{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 6em;
+}
+.descricaoTitulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--brancoPrincipal);
+    margin-bottom: 0.2em;
+}
+.descricaoTexto{
+    color: var(--cinzaSecundario);
+}
+.secundarioBotao{
+    display: block;
+    background-color: var(--botaoAzul);
+    border-radius: 15px;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.descricao{
+    padding: 2em;
+}
+.dispositivosLista{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivosTitulo{
+    font-size: 48px;
+    font-weight: bold;
+}
+.dispositivosTexto{
+    font-size: 32px;
+    font-weight: bold;
+}
+.rodape{
+    text-align: center;
+    margin-bottom: 4em;
+}
+.logoFooter{
+    margin-top: 2.5em;
+}
+.linksFooter{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    margin-top: 4em;
+    padding: 0 1em;
+    font-size: 16px;
+}
+.textoFooter{
+    margin: 3em;
+    color: var(--cinzaSecundario);
+    font-size: 14px;
+}
+.linksFooter a:hover{
+    color: var(--botaoAzul);
+}
